@@ -1,0 +1,222 @@
+@media (max-width: 1340px) {
+    .support {
+        column-gap: 30px;
+    }
+}
+
+@media (max-width: 1240px) { 
+    .content__banner {
+        img {
+            width: 423px;
+            height: 240px;
+            margin-right: 20px;
+        }
+
+        & banner-info {
+            h1 {
+                font-size: var(--laptop-size-h1);
+                font-weight: 600;
+            }
+        }
+    }
+
+    // .support {
+    //     .support-form {
+    //         form {
+    //             // width: 500px;
+    //         }
+    //     }
+    // }
+}
+
+@media (max-width: 992px) {
+    .header {
+        nav {
+            padding: 0 16px;
+            }
+        }
+
+    .content__about {
+        h2 {
+            font-size: var(--laptop-size-h2);
+        }
+
+        .image-fixed {
+            img {
+                width: 147px;
+                height: 207px;
+            }
+        }
+    }
+
+    .content__banner {
+        .banner-info {
+            h1 {
+                font-size: var(--table-size-h1);
+            }
+        }
+    }
+
+    .content__body {
+        h2 {
+            font-size: 36px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        &-list {
+            padding-left: 17px;
+        }
+    }
+    
+    .support {
+        column-gap: 30px;
+
+        .support-form {
+            form {
+                // width: 452px;
+                
+                h2 {
+                    font-size: var(--laptop-size-h2);
+                }
+            }
+        }
+
+        .contacts {
+            // width: 477px;
+
+            & h2 {
+                font-size: var(--laptop-size-h2);
+            }
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .content__header__top-list {
+        .top-list__right {
+            column-gap: 3vw;
+        }
+    }
+
+    .contacts {
+        h2 {
+            padding: 17px 0 0 36px;
+        }
+
+        &-list {
+            padding-left: 36px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        nav {
+            column-gap: 13px;
+
+            .nav__left {
+                img {
+                    width: 101px;
+                }
+            }
+
+            .nav__right {
+                .mobile-block {
+                    display: flex;
+                    column-gap: 14px;
+                    
+                }
+
+            .desktop-social-block {
+                display: none;
+                }
+            }
+        }
+    }
+    
+    .content__header__top-list {
+
+        .top-list__left {
+            column-gap: 4vw;
+            padding: 0 0 0 20px;
+        }
+        
+        .top-list__right {
+            span {
+                display: none;
+            }
+        }
+    }
+
+    .content__banner {
+        img {
+            width: 349px;
+            height: 198px;
+        }
+    }
+
+    .content__about {
+        h2 {
+            font-size: var(--table-size-h2);
+            font-weight: 600;
+        }
+
+        .image-fixed {
+            display: none;
+        }
+    }
+
+    .content__body-list {
+        grid-template-columns: repeat(3, 200px);
+        grid-template-areas: 
+        "clothes accessories image1"
+        "clothes accessories image1"
+        "clothes gifts for-the-house "
+        "tableware gift for-the-house"
+        "tableware gift for-the-house"
+        "image2 photo-services for-the-house"
+        ;
+
+        & :last-child img {
+            padding-top: 70px; 
+        }
+    }
+
+    .content__body-map-info {
+        h2 {
+            font-size: var(--table-size-h2);
+        }
+    } 
+    
+    .support {
+        column-gap: 8px;
+
+        .support-form {
+            padding-right: 32px;
+            form {
+                // width: 354px;
+                // height: 155px;
+
+                h2 {
+                    font-size: var(--table-size-h2);
+                }
+            }
+        }
+
+        .contacts {
+            // width: 360px;
+            // height: 427px;
+
+            h2 {
+                font-size: var(--table-size-h2);
+            }
+
+            &-list {
+                padding-left: 30px;
+            }
+        }
+    }
+}
